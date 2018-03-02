@@ -345,24 +345,3 @@ def historicaltosql(list_hist):
 # In[ ]:
 
 historicaltosql(list_hist)
-
-
-# In[ ]:
-
-t2 = time.time()
-
-
-# In[ ]:
-
-print((t2-t1)/60)
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
