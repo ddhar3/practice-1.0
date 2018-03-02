@@ -14,14 +14,6 @@ import json
 import mysql.connector
 import httplib
 
-
-# In[ ]:
-
-t1 = time.time()
-
-
-# In[ ]:
-
 #extract aggregate data 
 #currency -- coin names used in url
 #df_to_join -- coin index to be joined with historical data 
@@ -345,24 +337,3 @@ def historicaltosql(list_hist):
 # In[ ]:
 
 historicaltosql(list_hist)
-
-
-# In[ ]:
-
-t2 = time.time()
-
-
-# In[ ]:
-
-print((t2-t1)/60)
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
